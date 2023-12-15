@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="image_2"
+        android:src="@drawable/kembali" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="-33dp"
+        android:src="@drawable/header"
+        >
+
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-380dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:src="@drawable/logo1">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="Pria"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="Wanita"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="Anak - Anak"
+        android:textSize="18sp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-372dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:src="@drawable/lane1"
+        >
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:src="@drawable/lane1"
+        >
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:src="@drawable/lane2"
+        >
+
+    </ImageButton>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-400dp"
+        android:layout_marginTop="150dp">
+
+
+        <RelativeLayout
+            android:layout_width="420dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imageView5"
+                android:layout_width="401dp"
+                android:layout_height="176dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/gambar7">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageView6"
+                android:layout_width="401dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/gambar8">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageView7"
+                android:layout_width="401dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/gambar9">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageView8"
+                android:layout_width="401dp"
+                android:layout_height="176dp"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/gambar8">
+
+            </ImageButton>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
